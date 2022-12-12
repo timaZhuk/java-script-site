@@ -1,4 +1,4 @@
-4194
+4198
 89C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\package.json133152422478186603 0
 94C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\package-lock.json133152346014032675 0
 111C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\css-tree\package.json133152345428864022 0
@@ -11,7 +11,7 @@
 141C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\caniuse-lite\data\features\getboundingclientrect.js133152345584292805 0
 114C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\abortcontroller-polyfill133152344651129537 1
 141C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\caniuse-lite\data\features\contentsecuritypolicy.js133152345410817835 0
-81C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist133152455923600553 1
+81C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist133153333287209592 1
 121C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\workers\src\cpuCount.js133152344617244094 0
 121C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\caniuse-lite\data\regions\AX.js133152345045406725 0
 107C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\dotenv-expand\lib133152344401368436 1
@@ -55,11 +55,12 @@
 118C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\utils\src\urlJoin.js133152345177350002 0
 121C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\caniuse-lite\data\regions\GP.js133152345590034757 0
 133C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\csso\lib\restructure\4-restructShorthand.js133152344397589286 0
+88C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\src\classes133153309619438721 1
 106C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\posthtml\license133152344275093880 0
 106C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\svgo\lib\path.js133152344975536284 0
 109C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\terser\lib\compress133152345105311693 1
 119C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@swc\helpers\lib\_ts_param.js133152345169176490 0
-80C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\src133152444194284903 1
+80C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\src133153309459302983 1
 108C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\get-port\readme.md133152344478142869 0
 95C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\clone133152344454022687 1
 114C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\source-map\source-map.js133152344328675857 0
@@ -106,7 +107,7 @@
 118C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\terser\lib\compress\index.js133152345026384006 0
 96C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\dotenv133152344429629085 1
 124C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\cosmiconfig\dist\readFile.d.ts.map133152344877722575 0
-89C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\src\model.js133152455672672406 0
+89C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\src\model.js133153331788719008 0
 121C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\caniuse-lite\data\regions\VE.js133152345860581351 0
 127C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\svgo\lib\svgo\css-select-adapter.d.ts133152345180914328 0
 133C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\caniuse-lite\data\features\web-animation.js133152345881137201 0
@@ -140,12 +141,12 @@
 119C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\mdn-data\api\inheritance.json133152344593172735 0
 110C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\picocolors\README.md133152344357424765 0
 152C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\dom-serializer\node_modules\entities\lib\decode_codepoint.d.ts133152344666431679 0
-93C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\src\templates.js133152452677481752 0
+93C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\src\templates.js133153307565793324 0
 128C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\svgo\lib\svgo\css-style-declaration.js133152344833827785 0
 133C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\workers\lib\threads\ThreadsChild.js133152344951201272 0
 164C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias\main.js133152345054127089 0
 121C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\cosmiconfig\dist\index.d.ts.map133152344814756188 0
-89C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\src\utils.js133152447901780320 0
+89C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\src\utils.js133153269575340264 0
 123C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\css-tree\lib\syntax\pseudo\dir.js133152345012937234 0
 127C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\postcss-value-parser\lib\stringify.js133152344326879052 0
 115C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\terser\lib\mozilla-ast.js133152345053062684 0
@@ -156,7 +157,7 @@
 112C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\tslib\modules\index.js133152344328080175 0
 102C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\domutils\lib133152344816845957 1
 130C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\json-parse-even-better-errors\LICENSE.md133152344321390964 0
-96C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\src\styles\main.css133152392235356323 0
+96C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\src\styles\main.css133153290251150454 0
 145C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\midl.c133152345099408596 0
 122C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\postcss-value-parser\lib\walk.js133152344416319039 0
 110C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\json5\lib\require.js133152344485876968 0
@@ -165,6 +166,9 @@
 138C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\caniuse-lite\data\features\css-initial-letter.js133152345477480388 0
 99C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\path-type133152344347610669 1
 114C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@lezer\lr\dist\index.cjs133152344348382128 0
+112C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\type-fest\package.json133152344272320561 0
+98C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\src\classes\blocks.js133153332216252298 0
+139C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@swc\helpers\src\_initializer_define_property.mjs133152345442955305 0
 114C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\cosmiconfig\package.json133152344588456116 0
 133C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\caniuse-lite\data\features\object-values.js133152345683849621 0
 121C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\dotenv-expand\dotenv-expand.png133152344272432855 0
@@ -837,7 +841,7 @@
 109C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\terser\lib\scope.js133152345098119583 0
 141C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\caniuse-lite\data\features\native-filesystem-api.js133152345670207575 0
 163C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\source-not-symlinked133152345415309856 1
-92C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\index.html133152455923122060 0
+92C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\index.html133153333286750618 0
 115C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\utility-types\SECURITY.md133152344635798075 0
 124C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\type-fest\source\set-optional.d.ts133152344919107741 0
 144C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@babel\highlight\node_modules\ansi-styles\package.json133152344235832662 0
@@ -919,7 +923,6 @@
 118C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\posthtml-render\changelog.md133152344372365613 0
 143C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\runtime-js\lib\helpers\browser\html-loader.js133152344764416295 0
 109C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\type-fest\base.d.ts133152344420273983 0
-112C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\type-fest\package.json133152344272320561 0
 106C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\type-fest\source133152344996189812 1
 128C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\dom-serializer\lib\esm\foreignNames.js133152344280621026 0
 129C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\caniuse-lite\data\features\css-table.js133152345527502930 0
@@ -1068,8 +1071,8 @@
 117C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@babel\code-frame\README.md133152344272242451 0
 117C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\workers\lib\process133152344858914699 1
 150C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\dom-serializer\node_modules\entities\lib\decode_codepoint.js133152344280396444 0
-194C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-package-redirect-down\foo\package.json133152345396218773 0
 139C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@babel\highlight\node_modules\chalk\index.js.flow133152344299853695 0
+194C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-package-redirect-down\foo\package.json133152345396218773 0
 101C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\timsort\src133152344532208231 1
 113C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\package-manager133152345061841656 1
 123C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\source-map\dist\source-map.min.js133152344814785498 0
@@ -1325,14 +1328,14 @@
 112C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\source-map\lib\util.js133152344631276782 0
 123C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\caniuse-lite\dist\lib\statuses.js133152345771190112 0
 106C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\semver\semver.js133152344429072469 0
-116C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@jridgewell\set-array\dist133152344443544602 1
-111C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\safe-buffer\README.md133152344328002049 0
 107C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\semver\bin\semver133152344314091435 0
 118C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\posthtml-render\package.json133152344321146859 0
 121C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\caniuse-lite\data\regions\GN.js133152345589038734 0
 116C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\css-what\lib\es\index.d.ts133152344775460799 0
 127C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\core\test\Environment.test.js133152345143288775 0
 114C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\safe-buffer\package.json133152344293647881 0
+116C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@jridgewell\set-array\dist133152344443544602 1
+111C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\safe-buffer\README.md133152344328002049 0
 111C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\resolve-from\index.js133152344272862510 0
 181C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\sub\index.json133152345204419314 0
 141C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@babel\highlight\node_modules\color-name\.npmignore133152344276851640 0
@@ -2380,8 +2383,8 @@
 139C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-web133152345338589107 1
 146C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\watcher\prebuilds\win32-x64\node.napi.glibc.node133152345093842397 0
 119C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\css-tree\lib\walker\create.js133152344871101766 0
-140C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\caniuse-lite\data\features\css-overflow-overlay.js133152345497533343 0
 118C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\css-tree\lib\walker\index.js133152345137205048 0
+140C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\caniuse-lite\data\features\css-overflow-overlay.js133152345497533343 0
 128C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\caniuse-lite\data\features\push-api.js133152345707686620 0
 137C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\css-tree\lib\tokenizer\char-code-definitions.js133152344639616290 0
 121C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\css-tree\lib\tokenizer\const.js133152344761740625 0
@@ -2781,6 +2784,7 @@
 125C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\caniuse-lite\data\features\audio.js133152345015378533 0
 121C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\plugin\lib\PluginAPI.js133152344341068007 0
 131C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\caniuse-lite\data\features\audiotracks.js133152345022516944 0
+99C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\index.121edfbe.js133153333286760379 0
 128C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\caniuse-lite\data\features\auxclick.js133152345033834875 0
 135C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\reporter-cli\test\CLIReporter.test.js133152344617234341 0
 141C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\caniuse-lite\data\features\background-attachment.js133152345051861545 0
@@ -3257,8 +3261,8 @@
 152C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\abortcontroller-polyfill\dist\abortcontroller-polyfill-only.js133152344373820649 0
 135C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\abortcontroller-polyfill\dist\cjs-ponyfill.js133152344505007101 0
 118C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@types\parse-json\index.d.ts133152344292158678 0
-117C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@types\parse-json\README.md133152344272281479 0
 133C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@babel\highlight\node_modules\chalk\license133152344326341953 0
+117C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@types\parse-json\README.md133152344272281479 0
 103C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@trysound\sax133152344338255567 1
 107C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@trysound\sax\lib133152344272159419 1
 116C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@trysound\sax\package.json133152344314355110 0
@@ -3311,7 +3315,6 @@
 123C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@swc\helpers\src\_export_star.mjs133152345428463651 0
 128C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@swc\helpers\src\_get_prototype_of.mjs133152345428883568 0
 126C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@swc\helpers\src\_inherits_loose.mjs133152345442393783 0
-139C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@swc\helpers\src\_initializer_define_property.mjs133152345442955305 0
 122C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\packager-js\package.json133152344828700979 0
 122C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@swc\helpers\src\_instanceof.mjs133152345446006940 0
 137C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@swc\helpers\lib\_class_apply_descriptor_get.js133152344643151314 0
@@ -3704,7 +3707,7 @@
 139C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\runtime-js\lib\helpers\bundle-manifest.js133152344430107592 0
 160C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc-multiple133152344700668685 0
 138C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\runtime-js\lib\helpers\get-worker-url.js133152344716234526 0
-100C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\index.5525e4b8.css133152454867834341 0
+100C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\index.5525e4b8.css133153332218215140 0
 127C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\runtime-js\lib\helpers\worker133152345000535349 1
 142C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\runtime-js\lib\helpers\worker\wasm-loader.js133152345001199388 0
 140C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\@parcel\reporter-dev-server\src\templates\500.html133152344471756404 0
@@ -4177,15 +4180,16 @@
 105C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\node_modules\.bin\terser.cmd133152345970616267 0
 88C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\assets133152441147678276 1
 100C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\image.10fae59f.png133152455918258961 0
-100C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\image.513edb25.png133152454868117525 0
+100C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\image.513edb25.png133153332218215140 0
+103C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\index.121edfbe.js.map133153333287180283 0
 99C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\index.4a5f3e13.js133152435789375369 0
 103C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\index.4a5f3e13.js.map133152435789541390 0
 99C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\index.50c160f0.js133152455923122060 0
 103C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\index.50c160f0.js.map133152455923561496 0
-104C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\index.5525e4b8.css.map133152454868117525 0
+104C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\index.5525e4b8.css.map133153332218371395 0
 100C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\index.8cad6d4e.css133152422643190444 0
-99C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\index.975ef6c8.js133152454868049233 0
-103C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\index.975ef6c8.js.map133152454868400689 0
+99C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\index.975ef6c8.js133153332218215140 0
+103C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\index.975ef6c8.js.map133153332218400671 0
 99C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\index.dce8dd1a.js133152429728496468 0
 99C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\index.e34efe92.js133152422643190444 0
 103C:\Users\TRICK\Desktop\AllInJavaScript2022\java_script_site\java-script-site\dist\index.e34efe92.js.map133152422643512832 0

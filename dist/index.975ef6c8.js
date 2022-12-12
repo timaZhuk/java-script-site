@@ -561,31 +561,97 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "model", ()=>model);
 var _imagePng = require("./assets/image.png");
 var _imagePngDefault = parcelHelpers.interopDefault(_imagePng);
+var _blocks = require("./classes/blocks");
+const text = `My favorite language for web development <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript" target="-blank">Mozilla MDN JS</a>`;
 const model = [
-    {
-        type: "title",
-        value: "Hello World from JS"
-    },
-    {
-        type: "text",
-        value: "Here we go with somw text"
-    },
-    {
-        type: "columns",
-        value: [
-            "1111111111",
-            "2222222222",
-            "3333333333",
-            "7888888888"
-        ]
-    },
-    {
-        type: "image",
-        value: (0, _imagePngDefault.default)
-    }
-];
+    new (0, _blocks.TitleBlock)("Constructor of web-sites by JS", {
+        tag: "h1",
+        styles: {
+            background: "linear-gradient(to right, #ff0099, #493240)",
+            color: "#fff",
+            "text-align": "center",
+            padding: "1.5rem"
+        }
+    }),
+    new (0, _blocks.ImageBlock)((0, _imagePngDefault.default), {
+        styles: {
+            padding: "0.25rem",
+            display: "flex",
+            "justify-content": "center"
+        },
+        imageStyles: {
+            width: "700px",
+            height: "auto"
+        },
+        alt: "This is image.png"
+    }),
+    new (0, _blocks.TextBlock)(text, {
+        styles: {
+            background: "linear-gradient(to left, #f2994a, #f2c94c)",
+            padding: "1rem",
+            "font-weight": "bold"
+        }
+    }),
+    new (0, _blocks.ColumnsBlock)([
+        "Application without frameworks on native JavaScript",
+        "You can know about OOP, SOLID and functions in JS",
+        "JavaScript is powerful and flexible lanhuage with rich UI and OOP functionality"
+    ], {
+        styles: {
+            background: "linear-gradient(to left, #8e2de2, #4a00e0)",
+            padding: "2rem",
+            color: "#fff",
+            "font-weight": "bold"
+        }
+    })
+] //models
+ /*
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./assets/image.png":"ljha9"}],"gkKU3":[function(require,module,exports) {
+{type:'columns', value:[
+        'Application without frameworks on native JavaScript',
+        'You can know about OOP, SOLID and functions in JS',
+        'JavaScript is powerful and flexible lanhuage with rich UI and OOP functionality',
+        
+    ],
+    options:{
+        styles:{
+            background:'linear-gradient(to left, #8e2de2, #4a00e0)',
+            padding:'2rem',
+            color:'#fff',
+            'font-weight': 'bold'
+        }
+    }
+},
+
+{type:'text', value:text, options:{
+        styles:{
+            background:'linear-gradient(to left, #f2994a, #f2c94c)',
+            padding:'1rem',
+            'font-weight':'bold'
+        }
+    }},
+{type:'image', value:image, options:{
+        styles:{
+            padding:'2rem 0',
+            display: 'flex',
+            'justify-content':'center'
+        }
+    }},
+    {type:'image', value:image, options:{
+        styles:{
+            padding:'0.25rem',
+            display: 'flex',
+            'justify-content':'center'
+        },
+        imageStyles:{
+            width:'700px',
+            height:'auto',
+        },
+        alt:'This is image.png'
+    }},
+ */ ;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./assets/image.png":"ljha9","./classes/blocks":"gMfMj"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -652,33 +718,76 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"gOO7a":[function(require,module,exports) {
+},{}],"gMfMj":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "TitleBlock", ()=>TitleBlock);
+parcelHelpers.export(exports, "ImageBlock", ()=>ImageBlock);
+parcelHelpers.export(exports, "ColumnsBlock", ()=>ColumnsBlock);
+parcelHelpers.export(exports, "TextBlock", ()=>TextBlock);
+class Block {
+    constructor(type, value, options){
+        this.type = type;
+        this.value = value;
+        this.options = options;
+    }
+}
+class TitleBlock extends Block {
+    constructor(value, options){
+        super("title", value, options);
+    }
+}
+class ImageBlock extends Block {
+    constructor(value, options){
+        super("image", value, options);
+    }
+}
+class ColumnsBlock extends Block {
+    constructor(value, options){
+        super("columns", value, options);
+    }
+}
+class TextBlock extends Block {
+    constructor(value, options){
+        super("text", value, options);
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gOO7a":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "templates", ()=>templates);
 var _utils = require("./utils");
 //-----------function declaration--------------------
 function title(block) {
-    return (0, _utils.row)((0, _utils.col)(`<h1>${block.value}</h1>`));
+    const { tag ="h1" , styles  } = block.options;
+    return (0, _utils.row)((0, _utils.col)(`<${tag}>${block.value}</${tag}>`), (0, _utils.css)(styles));
 }
 //-----------------------------------------------
 function text(block) {
-    return (0, _utils.row)((0, _utils.col)(`<p>${block.value}</p>`));
+    return (0, _utils.row)((0, _utils.col)(`<p>${block.value}</p>`), (0, _utils.css)(block.options.styles));
 }
 function columns(block) {
-    let columns = "";
-    for(let i = 0; i < block.value.length; i++)columns += `
-            <div class="col-sm">
-                ${block.value[i]}
-            </div>
-        `;
-    return `<div class="row">
-                ${columns}
-                </div>`;
+    const html = block.value.map((0, _utils.col)).join("");
+    return (0, _utils.row)(html, (0, _utils.css)(block.options.styles));
 }
+// function columns(block){
+//     let columns='';
+//         for(let i =0;i<block.value.length;i++){
+//             columns+=`
+//             <div class="col-sm">
+//                 ${block.value[i]}
+//             </div>
+//         `;
+//         }
+//         return `<div class="row">
+//                 ${columns}
+//                 </div>`;
+// }
 //--------------------------------------------------------
 function image(block) {
-    return (0, _utils.row)(`<img src="${block.value}"/>`);
+    const { imageStyles: is , alt , styles  } = block.options;
+    return (0, _utils.row)(`<img src="${block.value}" alt="${alt}" style="${(0, _utils.css)(is)}"/>`, (0, _utils.css)(block.options.styles));
 }
 //altertanive code
 function colummnsEach(block) {
@@ -695,29 +804,39 @@ function colummnsEach(block) {
                 ${html}
                 </div>`;
 }
-function colummnsMap(block) {
+function columnsMap(block) {
     let html = block.value.map((item)=>(0, _utils.col)(item));
-    return (0, _utils.row)(html.join(""));
+    return (0, _utils.row)(html.join(""), (0, _utils.css)(block.options.styles));
 }
 const templates = {
     title: title,
     text: text,
     image: image,
     columns: columns,
-    colummnsEach: colummnsEach,
-    colummnsMap: colummnsMap
-};
+    columnsMap: columnsMap
+} // columns:columns,
+ // colummnsEach: colummnsEach,
+;
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./utils":"en4he"}],"en4he":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "row", ()=>row);
 parcelHelpers.export(exports, "col", ()=>col);
-function row(content) {
-    return `<div class="row">${content}</div>`;
+parcelHelpers.export(exports, "css", ()=>css);
+function row(content, styles = "") {
+    return `<div class="row" style="${styles}">${content}</div>`;
 }
 function col(content) {
     return `<div class="col-sm">${content}</div>`;
+}
+function css(styles = {}) {
+    // const keys = Object.keys(styles) // return array of keys in styles
+    // const array=keys.map(key => {
+    //     return `${key}:${styles[key]}`;
+    // });
+    // return array.join(';');
+    return Object.keys(styles).map((key)=>`${key}:${styles[key]}`).join(";");
 }
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"clPKd":[function() {},{}]},["ShInH","8lqZg"], "8lqZg", "parcelRequire3b7e")

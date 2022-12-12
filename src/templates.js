@@ -1,33 +1,41 @@
-import {row, col} from './utils'
+import {row, col, css} from './utils'
 
 //-----------function declaration--------------------
 function title(block){
-    return row(col(`<h1>${block.value}</h1>`))
+    const{tag='h1',styles}=block.options
+    return row(col(`<${tag}>${block.value}</${tag}>`), css(styles))
 }
 //-----------------------------------------------
 function text(block){
-    return row(col(`<p>${block.value}</p>`))
+    return row(col(`<p>${block.value}</p>`),css(block.options.styles))
 }
 
+
 function columns(block){
-    let columns='';
-        
-        for(let i =0;i<block.value.length;i++){
-            columns+=`
-            <div class="col-sm">
-                ${block.value[i]}
-            </div>
-        `;
-            
-        }
-        return `<div class="row">
-                ${columns}
-                </div>`;
-        
+    const html=block.value.map(col).join('')
+    return row(html,css(block.options.styles))
 }
+
+// function columns(block){
+//     let columns='';
+        
+//         for(let i =0;i<block.value.length;i++){
+//             columns+=`
+//             <div class="col-sm">
+//                 ${block.value[i]}
+//             </div>
+//         `;
+            
+//         }
+//         return `<div class="row">
+//                 ${columns}
+//                 </div>`;
+        
+// }
 //--------------------------------------------------------
 function image(block){
-    return row(`<img src="${block.value}"/>`) 
+    const{imageStyles:is, alt, styles}=block.options
+    return row(`<img src="${block.value}" alt="${alt}" style="${css(is)}"/>`,css(block.options.styles)) 
 }
 
 //altertanive code
@@ -49,9 +57,9 @@ function colummnsEach(block){
 
 }
 
-function colummnsMap(block){
-    let html= block.value.map(item => col(item));
-    return row(html.join(''))
+function columnsMap(block){
+    let html= block.value.map(item => col(item))
+    return row(html.join(''), css(block.options.styles));
 }
 
 export const templates = {
@@ -59,6 +67,8 @@ export const templates = {
     text:text,
     image:image,
     columns:columns,
-    colummnsEach: colummnsEach,
-    colummnsMap: colummnsMap
+    columnsMap: columnsMap,
 }
+
+// columns:columns,
+    // colummnsEach: colummnsEach,
