@@ -1,0 +1,27 @@
+{
+  "name": "java-script-site",
+  "version": "1.0.0",
+  "description": "javascript vanila site",
+  "source": "src/index.html",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 4200 --open",
+    "build":"parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timaZhuk/java-script-site.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Timur <tima90zhuk@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timaZhuk/java-script-site/issues"
+  },
+  "homepage": "https://github.com/timaZhuk/java-script-site#readme",
+  "devDependencies": {
+    "parcel": "^2.8.1"
+  }
+}
